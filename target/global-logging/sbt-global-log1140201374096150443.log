@@ -1,0 +1,11 @@
+[debug] > Exec(hdfs namenode -format, None, None)
+[error] Expected ID character
+[error] Not a valid command: hdfs
+[error] Expected project ID
+[error] Expected configuration
+[error] Expected ':'
+[error] Expected key
+[error] Not a valid key: hdfs (similar: ps)
+[error] hdfs namenode -format
+[error]     ^
+[debug] > Exec(idea-shell, None, None)

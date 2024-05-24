@@ -1,0 +1,17 @@
+[debug] Packaging C:\Users\onsat\Desktop\fraud detection system\FrauddetectionProject\target\scala-2.13\frauddetectionproject_2.13-0.1.0-SNAPSHOT.jar ...
+[debug] Input file mappings:
+[debug] 	com
+[debug] 	  C:\Users\onsat\Desktop\fraud detection system\FrauddetectionProject\target\scala-2.13\classes\com
+[debug] 	com\bigdata
+[debug] 	  C:\Users\onsat\Desktop\fraud detection system\FrauddetectionProject\target\scala-2.13\classes\com\bigdata
+[debug] 	com\bigdata\frauddectection
+[debug] 	  C:\Users\onsat\Desktop\fraud detection system\FrauddetectionProject\target\scala-2.13\classes\com\bigdata\frauddectection
+[debug] 	com\bigdata\frauddectection\Main$$typecreator1$1.class
+[debug] 	  C:\Users\onsat\Desktop\fraud detection system\FrauddetectionProject\target\scala-2.13\classes\com\bigdata\frauddectection\Main$$typecreator1$1.class
+[debug] 	com\bigdata\frauddectection\Main$$typecreator2$1.class
+[debug] 	  C:\Users\onsat\Desktop\fraud detection system\FrauddetectionProject\target\scala-2.13\classes\com\bigdata\frauddectection\Main$$typecreator2$1.class
+[debug] 	com\bigdata\frauddectection\Main$.class
+[debug] 	  C:\Users\onsat\Desktop\fraud detection system\FrauddetectionProject\target\scala-2.13\classes\com\bigdata\frauddectection\Main$.class
+[debug] 	com\bigdata\frauddectection\Main.class
+[debug] 	  C:\Users\onsat\Desktop\fraud detection system\FrauddetectionProject\target\scala-2.13\classes\com\bigdata\frauddectection\Main.class
+[debug] Done packaging.

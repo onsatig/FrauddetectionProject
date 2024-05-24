@@ -1,0 +1,43 @@
+
+      <html>
+      <head>
+        <title>Fraud Detection Predictions</title>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      </head>
+      <body>
+        <h1>Fraud Detection Predictions</h1>
+        <h2>Test Accuracy: 0.68</h2>
+        <h2>Precision: 1.00</h2>
+        <h2>Recall: 1.00</h2>
+        <h2>F1 Score: 1.00</h2>
+        <canvas id="accuracyChart" width="400" height="200"></canvas>
+        <table border='1'>
+    <tr><th>transaction_id</th><th>date_str</th><th>customer_id</th><th>amount</th><th>type</th><th>description</th><th>is_fraud</th></tr><tr><td>39</td><td>2018-08-25</td><td>183</td><td>7211.23</td><td>transfer</td><td>Trip carry camera upon reality doctor adult.</td><td>0</td></tr><tr><td>87</td><td>2022-09-11</td><td>185</td><td>5582.53</td><td>credit</td><td>Unit all important subject task.</td><td>0</td></tr><tr><td>155</td><td>2022-03-06</td><td>686</td><td>5185.55</td><td>transfer</td><td>Always go feel only Mrs.</td><td>0</td></tr><tr><td>233</td><td>2020-09-10</td><td>30</td><td>3184.85</td><td>transfer</td><td>Address better off physical move sign ready.</td><td>0</td></tr><tr><td>241</td><td>2019-09-25</td><td>283</td><td>2107.49</td><td>credit</td><td>Explain onto gun soldier win popular push happy.</td><td>0</td></tr><tr><td>273</td><td>2018-06-23</td><td>828</td><td>8244.0</td><td>credit</td><td>Social camera inside Congress happen hope.</td><td>0</td></tr><tr><td>292</td><td>2019-10-03</td><td>914</td><td>2827.84</td><td>debit</td><td>Debate make catch military surface.</td><td>0</td></tr><tr><td>327</td><td>2019-07-29</td><td>249</td><td>4188.86</td><td>transfer</td><td>Hundred why around million two.</td><td>1</td></tr><tr><td>338</td><td>2019-07-31</td><td>114</td><td>5154.52</td><td>debit</td><td>Key door society.</td><td>0</td></tr><tr><td>382</td><td>2022-04-11</td><td>250</td><td>4655.16</td><td>credit</td><td>Care use bar time.</td><td>0</td></tr><tr><td>391</td><td>2021-01-20</td><td>131</td><td>6400.5</td><td>credit</td><td>School his late not network employee street international.</td><td>0</td></tr><tr><td>425</td><td>2022-01-31</td><td>226</td><td>7752.85</td><td>debit</td><td>Decide good now.</td><td>0</td></tr><tr><td>481</td><td>2021-02-20</td><td>867</td><td>8558.65</td><td>transfer</td><td>Wish meeting treat husband serious local teach.</td><td>0</td></tr><tr><td>500</td><td>2022-08-18</td><td>379</td><td>4703.49</td><td>credit</td><td>Small trip money just.</td><td>0</td></tr><tr><td>549</td><td>2023-03-09</td><td>150</td><td>1489.55</td><td>transfer</td><td>Enough boy plan behind news.</td><td>0</td></tr><tr><td>629</td><td>2022-06-08</td><td>69</td><td>1437.54</td><td>transfer</td><td>Guess most discover hear performance.</td><td>0</td></tr><tr><td>670</td><td>2019-11-27</td><td>346</td><td>1224.86</td><td>debit</td><td>Air wall professional to.</td><td>0</td></tr><tr><td>754</td><td>2021-11-22</td><td>514</td><td>9291.3</td><td>credit</td><td>Meeting central evening person.</td><td>0</td></tr><tr><td>838</td><td>2021-07-10</td><td>446</td><td>7296.15</td><td>credit</td><td>Allow career involve unit game resource rock state.</td><td>0</td></tr><tr><td>841</td><td>2020-11-02</td><td>66</td><td>2716.83</td><td>credit</td><td>Different join recent evidence center join west president.</td><td>0</td></tr><tr><td>873</td><td>2018-06-12</td><td>59</td><td>5127.8</td><td>debit</td><td>Network place physical alone.</td><td>0</td></tr><tr><td>950</td><td>2023-01-09</td><td>242</td><td>4512.2</td><td>transfer</td><td>Black thank sing fish wear firm board ago.</td><td>0</td></tr><tr><td>978</td><td>2023-03-24</td><td>174</td><td>3978.04</td><td>credit</td><td>Will professional senior full for home.</td><td>0</td></tr>
+        </table>
+        <script>
+          const ctx = document.getElementById('accuracyChart').getContext('2d');
+          const accuracyChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+              labels: ['Test Accuracy'],
+              datasets: [{
+                label: 'Accuracy',
+                data: [0.68],
+                backgroundColor: ['rgba(75, 192, 192, 0.2)'],
+                borderColor: ['rgba(75, 192, 192, 1)'],
+                borderWidth: 1
+              }]
+            },
+            options: {
+              scales: {
+                y: {
+                  beginAtZero: true,
+                  max: 1
+                }
+              }
+            }
+          });
+        </script>
+      </body>
+      </html>
+    

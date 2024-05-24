@@ -1,0 +1,11 @@
+[debug] > Exec(export SPARK_DRIVER_MEMORY=4g, None, None)
+[error] Expected project ID
+[error] Expected configuration
+[error] Expected ':'
+[error] Expected configuration ident
+[error] Expected '/'
+[error] Expected key
+[error] Not a valid key: SPARK_DRIVER_MEMORY
+[error] export SPARK_DRIVER_MEMORY=4g
+[error]                           ^
+[debug] > Exec(idea-shell, None, None)

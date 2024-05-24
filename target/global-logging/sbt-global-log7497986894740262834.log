@@ -1,0 +1,11 @@
+[debug] > Exec(data.show(5), None, None)
+[error] Expected ID character
+[error] Not a valid command: data (similar: last, alias, tasks)
+[error] Expected project ID
+[error] Expected configuration
+[error] Expected ':'
+[error] Expected key
+[error] Not a valid key: data (similar: update, tags, taskData)
+[error] data.show(5)
+[error]     ^
+[debug] > Exec(idea-shell, None, None)
